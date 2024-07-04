@@ -1,19 +1,19 @@
 import requests
 import random
 
-# Sample data (replace with your actual data or variables)
-lsd2 = 'sample_lsd'
-j2 = 'sample_jazoest'
-ccp = 'sample_ccp'
-reg_i = 'sample_reg_instance'
-reg_id = 'sample_reg_impression_id'
-nmf = 'Ashley'
-nml = 'Great'
-ids = 'oyamatmot0812@gmail.com'
-dayy = '08'
-monn = '12'
-yearr = '2008'
-pswrd = 'Grathegreat'
+# Actual sample data (replace with your actual data or variables)
+lsd2 = 'ABC123DEF456GHI789JKL'
+j2 = '1234567890ABCDEFG'
+ccp = 'CCP1234'
+reg_i = 'REG_INSTANCE_123456'
+reg_id = 'REG_IMPRESSION_ID_123456'
+nmf = 'John'
+nml = 'Doe'
+ids = 'johndoe@hotmail.com'
+dayy = '01'  # e.g., '01'
+monn = '01'  # e.g., '01'
+yearr = '2000'  # e.g., '2000'
+pswrd = 'securepassword123'
 
 data = {
     'lsd': lsd2,
@@ -49,7 +49,7 @@ data = {
 }
 
 # URL to which the POST request will be sent (replace with actual URL)
-url = 'https://www.facebook.com/signup'
+url = 'https://www.example.com/signup'
 
 # Send POST request
 response = requests.post(url, data=data)
